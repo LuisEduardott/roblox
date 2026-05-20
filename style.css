@@ -1,0 +1,136 @@
+/* estilos da minha pagina web */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ color: white;
+ background-color: black;
+}
+
+/* Geral */
+.text-center{
+    text-align: center;
+}
+
+.margin-top-40{
+    margin: 40px;
+}
+
+/* Container cabeçalho */
+
+.container-cabecalho{
+    text-align: center;
+    padding:  20px;
+    background-color: #04233f;
+}
+
+.container-cabecalho img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: #1190ff;
+}
+
+/* Menu de navegação */
+
+.container-nevegador{
+    text-align: center;
+    padding: 20px;
+    background-color: #06345d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.container-nevegador a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #7cc2ff;
+    transition: 0.3s;
+}
+
+.container-nevegador a:hover{
+    color:#ffffff;
+}
+
+.servico-texto{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.container-quem-somos {
+    background-color: #05192a;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.container-quem-somos .servico {
+    background-color: #061f35;
+    width: 80%;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #1190ff;
+    transition: 0.3s;
+    max-width: 700px;
+    transition: 0.3s;
+}
+
+.container-quem-somos .servico:hover{
+    transform: (1.02);
+    box-shadow: 0 0 40px rgba(17, 144, 255, 0.4);
+}
+
+.container-servicos-contatos{
+    background-color: #082846;
+    padding: 80px;
+    text-align: center;
+}
+.icone{
+    width: 90px;
+    margin-bottom: 25px;
+}
+
+.container-servicos-contatos{
+    background-color: #082946;
+    padding: 80px;
+    text-align: center;
+}
+
+.container-servicos-contatos .container-servicos-contatos{
+    padding: 60px;
+    text-align: center;
+}
+
+.container-servicos-contatos a{
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #008eb9;
+    color: white;
+    padding: ;
+}
+
+
+
+
+
+
+
